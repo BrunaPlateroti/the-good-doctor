@@ -1,6 +1,6 @@
 # The Good Doctor
 
-This is a Python project that involved analysing patient health records.
+This is a Python project that involved analysis of patient health records to predict disease incidence.
 
 The report can be found here [REPORT.pdf](https://github.com/BrunaPlateroti/the-good-doctor/blob/main/REPORT.pdf).
 
