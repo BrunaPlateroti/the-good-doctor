@@ -2,7 +2,7 @@
 
 This is a Python project that involved analysing patient health records.
 
-The report can be found here: `REPORT.pdf`.
+The report can be found here [REPORT.pdf](https://github.com/BrunaPlateroti/the-good-doctor/blob/main/REPORT.pdf).
 
 # Installation
 
