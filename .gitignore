@@ -1,0 +1,10 @@
+# Byte-Compiled / Optimized / DLL Files
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+.env/
+
+# macOS System Files
+.DS_Store
