@@ -57,7 +57,7 @@ df['Outcome'].value_counts().plot(kind='bar')
 plt.title('Class Distribution of Outcome')
 plt.xlabel('Outcome')
 plt.ylabel('Count')
-plt.savefig("class_distribution.png", dpi=300, bbox_inches='tight')
+plt.savefig("output/class_distribution.png", dpi=300, bbox_inches='tight')
 plt.show()
 
 # Plot features vs Outcome to understand which one can be used to predict disease
