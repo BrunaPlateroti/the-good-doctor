@@ -8,3 +8,7 @@ venv/
 
 # macOS System Files
 .DS_Store
+
+# IDE Files
+.idea
+.vscode
