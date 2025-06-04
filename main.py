@@ -67,7 +67,7 @@ plt.title('BMI by Outcome')
 plt.suptitle('')
 plt.xlabel('Outcome')
 plt.ylabel('BMI')
-plt.savefig("bmi_by_outcome.png", dpi=300, bbox_inches='tight')
+plt.savefig("output/bmi_by_outcome.png", dpi=300, bbox_inches='tight')
 plt.show()
 
 # Bivariate analysis - Pregnancies by Outcome
@@ -76,7 +76,7 @@ plt.title('Pregnancies by Outcome')
 plt.suptitle('')
 plt.xlabel('Outcome')
 plt.ylabel('Pregnancies')
-plt.savefig("pregnancies_by_outcome.png", dpi=300, bbox_inches='tight')
+plt.savefig("output/pregnancies_by_outcome.png", dpi=300, bbox_inches='tight')
 plt.show()
 
 # Bivariate analysis - Blood_Chemistry_I by Outcome
@@ -85,7 +85,7 @@ plt.title('Blood_Chemistry_I by Outcome')
 plt.suptitle('')
 plt.xlabel('Outcome')
 plt.ylabel('Blood_Chemistry_I')
-plt.savefig("blood_chemistry_I_by_outcome.png", dpi=300, bbox_inches='tight')
+plt.savefig("output/blood_chemistry_I_by_outcome.png", dpi=300, bbox_inches='tight')
 plt.show()
 
 # Correlation analysis with the Outcome
@@ -96,7 +96,7 @@ print(correlation_matrix['Outcome'].sort_values(ascending=False))
 plt.figure(figsize = (10,8))
 plt.title('Correlation Matrix')
 sns.heatmap(correlation_matrix, annot = True, cmap = 'coolwarm', fmt = '.2f')
-plt.savefig("correlation_matrix.png", dpi=300, bbox_inches='tight')
+plt.savefig("output/correlation_matrix.png", dpi=300, bbox_inches='tight')
 plt.show()
 
 
@@ -147,7 +147,7 @@ cm = confusion_matrix(y_test, y_prediction)
 disp = ConfusionMatrixDisplay(confusion_matrix = cm)
 disp.plot(cmap='Blues')
 plt.title('Confusion Matrix')
-plt.savefig("confusion_matrix.png", dpi=300, bbox_inches='tight')
+plt.savefig("output/confusion_matrix.png", dpi=300, bbox_inches='tight')
 plt.show()
 
 print('Classification Report:')

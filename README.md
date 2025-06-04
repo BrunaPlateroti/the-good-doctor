@@ -19,3 +19,5 @@ Analyse Dataset:
 ```bash
 python3 main.py
 ```
+
+**Note:** Analysis will also be saved to the `output` directory.
